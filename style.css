@@ -1,0 +1,496 @@
+/*El * es para modificar todo en general y ponerlo como default*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14;
+}
+/*Esto solo modifica los elementos de tipo a*/
+a {
+  text-decoration: none;
+}
+/*Lo mismo xd*/
+section {
+  height: 100vh;
+  display: flex;
+}
+/*First-child modifica solo al primer hijo de los varios que haya del elemento*/
+section:first-child {
+  height: 150vh;
+  display: flex;
+}
+
+body nav {
+  list-style: none;
+  position: absolute;
+  display: flex;
+  font-size: medium;
+  font-family: Josefin Sans;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+  width: 75%;
+  z-index: 3;
+  right: 0;
+  top: 5%;
+  background-color: white;
+}
+/*El punto es para classes, puedes seleccionar subclasses poniendo la clase primero y luego lo que esta dentro de esta
+de esta forma solo se modifican los elementos de tal clase dentro de la clase mayor*/
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.one {
+  position: relative;
+  background-color: #5ba6a2;
+  justify-content: space-around;
+}
+.one .logo {
+  width: 250px;
+  height: 50px;
+  background: url("./images/logo.png");
+  background-position: center center;
+  position: absolute;
+  background-size: cover;
+  opacity: 1;
+  left: 3%;
+  top: 5%;
+}
+.one .welcome {
+  width: 522px;
+  color: rgba(242, 245, 247, 1);
+  position: absolute;
+  top: 300px;
+  left: 5%;
+  font-family: Josefin Sans;
+  font-weight: Bold;
+  font-size: 66px;
+  opacity: 1;
+  text-align: left;
+}
+.one .welcoming {
+  width: 543px;
+  color: rgba(0, 0, 0, 0.7799999713897705);
+  position: absolute;
+  top: 450px;
+  left: 5%;
+  font-family: Ubuntu;
+  font-weight: Light;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.one .register {
+  width: 175px;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.7799999713897705);
+  position: absolute;
+  top: 650px;
+  left: 5%;
+  font-family: Ubuntu;
+  font-weight: Light;
+  opacity: 1;
+  background-color: rgb(66, 75, 90);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: large;
+  color: rgba(242, 245, 247, 1);
+}
+.one .aboutProduct {
+  width: 175px;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.7799999713897705);
+  position: absolute;
+  top: 650px;
+  left: 25%;
+  font-family: Ubuntu;
+  font-weight: Light;
+  opacity: 1;
+  background-color: rgb(66, 75, 90);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 3px;
+  font-size: large;
+  color: rgba(242, 245, 247, 1);
+}
+.one .image {
+  width: 50%;
+  height: 100%;
+  background-image: url("./images/phone_holding.png");
+  background-position: center center;
+  backface-visibility: hidden;
+  position: absolute;
+  background-size: cover;
+  right: 0;
+  z-index: 1;
+}
+.two {
+  position: relative;
+  background-color: white;
+  justify-content: center;
+}
+.two h1 {
+  width: 496px;
+  color: rgba(66, 75, 90, 1);
+  position: absolute;
+  display: inline;
+  top: 99px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  z-index: 2;
+}
+.two .box {
+  width: 300px;
+  height: 350px;
+  position: relative;
+  top: 200px;
+  background-color: rgb(242, 245, 247);
+  margin: 20px;
+  z-index: 2;
+}
+.two .box h2 {
+  color: rgba(20, 37, 36, 1);
+  position: relative;
+  top: 84px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.two .box span {
+  color: rgb(161, 174, 183);
+  position: absolute;
+  top: 200px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+  padding: 10px;
+}
+.three {
+  position: relative;
+  background-color: #5ba6a2;
+  justify-content: center;
+}
+.three h1 {
+  width: 826px;
+  height: 100px;
+  color: rgba(20, 37, 36, 1);
+  position: relative;
+  top: 84px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.three h2 {
+  width: 556px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 194px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.three .client-picture {
+  width: 179px;
+  height: 179px;
+  background: url("./images/selfie.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 319px;
+  border-top-left-radius: 204px;
+  border-top-right-radius: 204px;
+  border-bottom-left-radius: 204px;
+  border-bottom-right-radius: 204px;
+  overflow: hidden;
+}
+.three .client-title {
+  width: 46px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 545px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.three .client {
+  width: 141px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  bottom: 156px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.four {
+  position: relative;
+  background-color: white;
+  justify-content: center;
+}
+.four h1 {
+  width: 270px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 63px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.four h2 {
+  width: 557px;
+  color: rgba(79, 92, 104, 1);
+  position: absolute;
+  top: 135px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.four .container-box {
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  top: 250px;
+  justify-content: center;
+}
+.four .apple {
+  width: 125px;
+  height: 100px;
+  background: url("./images/applestore.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  right: 0px;
+  position: absolute;
+}
+.four .google {
+  width: 125px;
+  height: 100px;
+  background: url("./images/googleplay.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  left: 0px;
+  position: absolute;
+}
+.four .phone-screen {
+  width: 284px;
+  height: 420px;
+  background: url("./images/phone_screen.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 355px;
+  border-top-left-radius: 36px;
+  border-top-right-radius: 36px;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+  overflow: hidden;
+  z-index: 2;
+}
+.four .phone-border {
+  width: 335px;
+  height: 360px;
+  background: url("./images/phone.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 336px;
+  overflow: hidden;
+  z-index: 1;
+}
+.five {
+  position: relative;
+  background-color: #5ba6a2;
+  z-index: 3;
+  justify-content: center;
+  overflow: hidden;
+}
+.five h1 {
+  width: auto;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 70px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+  align-items: center;
+}
+.five iframe {
+  width: 600px;
+  height: 338px;
+  position: absolute;
+  top: 250px;
+}
+.six {
+  position: relative;
+  background-color: white;
+  z-index: 3;
+  justify-content: center;
+  overflow: hidden;
+}
+.six h1 {
+  width: 414px;
+  color: rgba(39, 46, 61, 1);
+  position: absolute;
+  top: 140px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.six span {
+  width: 300px;
+  position: absolute;
+  top: 235px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.six .container-box {
+  width: 500px;
+  height: 400px;
+  top: 300px;
+  position: absolute;
+}
+.six .email {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+.six .email .letter {
+  width: 50px;
+  height: 50px;
+  background-image: url("./images/letter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+
+  top: 0px;
+}
+.six .email .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  size: small;
+}
+.six .email .content {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 14%;
+  size: small;
+}
+.six .phone {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  left: 175px;
+  justify-content: center;
+  float: left;
+}
+.six .phone .cellphone {
+  width: 50px;
+  height: 50px;
+  background-image: url("./images/phone_icon.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.six .phone .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.six .phone .content {
+  width: 100px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 16%;
+  size: small;
+}
+.six .address {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+}
+.six .address .point {
+  width: 50px;
+  height: 50px;
+  background-image: url("./images/placeholder.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+.six .address .contact {
+  width: 60px;
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: 45px;
+  size: small;
+}
+.six .address .content {
+  width: 120px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 10%;
+  size: small;
+}
