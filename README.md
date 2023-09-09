@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [Villa Bellavista - App](https://github.com/VillaBellavista-App)
 
-- 🌱 I’m currently learning **React**
+- 🌱 I’m currently learning **Node js**
 
 - 💬 Ask me about **Angular, dart and kottlin**
 
