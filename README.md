@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nazarethcr11&label=Profile%20views&color=0e75b6&style=flat" alt="nazarethcr11" /> </p>
 
-- 🔭 I’m currently working on [Voy Contigo - App](https://github.com/JorgeVenegasPe/Contigo-Voy)
+- 🔭 I’m currently working on [Voy Contigo - App](https://github.com/nazarethcr11/IH_App)
 
 - 🌱 I’m currently learning **Node js**
 
