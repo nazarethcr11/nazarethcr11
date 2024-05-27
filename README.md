@@ -3,11 +3,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nazarethcr11&label=Profile%20views&color=0e75b6&style=flat" alt="nazarethcr11" /> </p>
 
-- 🔭 I’m currently working on [Voy Contigo - App](https://github.com/nazarethcr11/IH_App)
+- 🔭 I’m currently working on [Inclusive Hue - App](https://github.com/nazarethcr11/IH_App)
 
 - 🌱 I’m currently learning **Node js**
 
-- 💬 Ask me about **Angular, dart and kottlin**
+- 💬 Ask me about **Angular, Flutter and kottlin**
 
 - 📫 How to reach me **sinacaru1103@gmail.com**
 
