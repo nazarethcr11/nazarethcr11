@@ -3,8 +3,9 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=nazarethcr11&icon=0&color=0)](https://visitcount.itsvg.in)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=nazarethcr11&label=Profile%20views&color=0e75b6&style=flat" alt="nazarethcr11" /> </p>
 
-# About Me:
+## About Me:
 🔭 I’m currently working on Inclusive Hue - App<br>🌱 I’m currently learning Node js<br>💬 Ask me about Angular, Flutter and kottlin<br>📫 How to reach me sinacaru1103@gmail.com<br>⚡Fun fact I love making 3D Desings
 
 
